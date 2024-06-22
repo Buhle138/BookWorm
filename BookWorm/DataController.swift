@@ -12,7 +12,7 @@ import Foundation
 class DataController: ObservableObject{
     
     //core data model responsible for getting access to the data inside core data.
-    let container = NSPersistentContainer(name: "Bookworm")
+    let container = NSPersistentContainer(name: "BookWorm")
     
     
     init(){
