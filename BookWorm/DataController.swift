@@ -11,4 +11,16 @@ import Foundation
 
 class DataController: ObservableObject{
     
+    //core data model responsible for getting access to the data inside core data.
+    let container = NSPersistentContainer(name: "Bookworm")
+    
+    
+    init(){
+        container.loadPersistentStores { description, error in
+            if let error = error{
+                print("Core Data failed to load: \(error.localizedDescription)")
+            }
+        }
+    }
+    
 }
