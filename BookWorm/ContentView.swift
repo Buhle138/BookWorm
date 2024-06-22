@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    //sortDescriptors is about the format we would like to sort our data in our case it's an array. 
+    @FetchRequest(sortDescriptors: []) var students: FetchedResults<Student>
 
     var body: some View {
         VStack {
