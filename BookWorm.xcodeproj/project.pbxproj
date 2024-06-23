@@ -13,6 +13,7 @@
 		945534912C27734900C99A45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945534902C27734900C99A45 /* Preview Assets.xcassets */; };
 		945534992C27787E00C99A45 /* BookWorm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 945534972C27787E00C99A45 /* BookWorm.xcdatamodeld */; };
 		9455349B2C2779F800C99A45 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455349A2C2779F800C99A45 /* DataController.swift */; };
+		9455349D2C2809B200C99A45 /* AddBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455349C2C2809B200C99A45 /* AddBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		945534902C27734900C99A45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		945534982C27787E00C99A45 /* BookWorm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookWorm.xcdatamodel; sourceTree = "<group>"; };
 		9455349A2C2779F800C99A45 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		9455349C2C2809B200C99A45 /* AddBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				945534892C27734800C99A45 /* BookWormApp.swift */,
 				9455348B2C27734800C99A45 /* ContentView.swift */,
 				945534972C27787E00C99A45 /* BookWorm.xcdatamodeld */,
+				9455349C2C2809B200C99A45 /* AddBook.swift */,
 				9455349A2C2779F800C99A45 /* DataController.swift */,
 				9455348D2C27734900C99A45 /* Assets.xcassets */,
 				9455348F2C27734900C99A45 /* Preview Content */,
@@ -147,6 +150,7 @@
 				9455349B2C2779F800C99A45 /* DataController.swift in Sources */,
 				9455348C2C27734800C99A45 /* ContentView.swift in Sources */,
 				9455348A2C27734800C99A45 /* BookWormApp.swift in Sources */,
+				9455349D2C2809B200C99A45 /* AddBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
