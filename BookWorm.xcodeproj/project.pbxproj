@@ -15,6 +15,7 @@
 		9455349B2C2779F800C99A45 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455349A2C2779F800C99A45 /* DataController.swift */; };
 		9455349D2C2809B200C99A45 /* AddBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455349C2C2809B200C99A45 /* AddBook.swift */; };
 		9455349F2C28181100C99A45 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455349E2C28181100C99A45 /* RatingView.swift */; };
+		945534A12C281C2600C99A45 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945534A02C281C2600C99A45 /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9455349A2C2779F800C99A45 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		9455349C2C2809B200C99A45 /* AddBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBook.swift; sourceTree = "<group>"; };
 		9455349E2C28181100C99A45 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		945534A02C281C2600C99A45 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		9455347D2C27734800C99A45 = {
 			isa = PBXGroup;
 			children = (
+				945534A02C281C2600C99A45 /* EmojiRatingView.swift */,
 				9455349E2C28181100C99A45 /* RatingView.swift */,
 				945534882C27734800C99A45 /* BookWorm */,
 				945534872C27734800C99A45 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				945534992C27787E00C99A45 /* BookWorm.xcdatamodeld in Sources */,
 				9455349B2C2779F800C99A45 /* DataController.swift in Sources */,
+				945534A12C281C2600C99A45 /* EmojiRatingView.swift in Sources */,
 				9455348C2C27734800C99A45 /* ContentView.swift in Sources */,
 				9455349F2C28181100C99A45 /* RatingView.swift in Sources */,
 				9455348A2C27734800C99A45 /* BookWormApp.swift in Sources */,
